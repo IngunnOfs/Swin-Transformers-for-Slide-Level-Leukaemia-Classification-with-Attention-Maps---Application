@@ -1,4 +1,4 @@
-name: swin_gpu
+name: swin_env
 channels:
   - defaults
   - nvidia
