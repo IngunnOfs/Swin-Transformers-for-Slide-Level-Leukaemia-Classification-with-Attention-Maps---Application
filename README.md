@@ -24,7 +24,7 @@ The demo allows users to run inference on precomputed whole slide samples and vi
 ## Relation to Training Repository
 This application is built on top of the full training and data processing pipeline available here:
 
-[LINK_TRAINING_REPOSITORY]()
+[link to training repository](https://github.com/IngunnOfs/Swin-Transformers-for-Slide-Level-Leukaemia-Classification-with-Attention-Maps)
 
 The referenced repository contains:
 - Data preprocessing and patch extraction
