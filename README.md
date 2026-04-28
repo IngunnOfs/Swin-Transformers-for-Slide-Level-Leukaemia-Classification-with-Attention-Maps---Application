@@ -12,6 +12,14 @@ The app is designed for inference and visualisation only.
 **Disclaimer:**
 This application is intended for research and demonstration purposes only and is not suitable for clinical use.
 
+## Application Demo
+
+A deployed version of the pipeline is available as an interactive Streamlit application:
+
+[streamlit demo app](https://leukaemia-subtype-classification-demo-app.streamlit.app/)
+
+The demo allows users to run inference on precomputed whole slide samples and visualise model predictions and attention maps.
+
 
 ## Relation to Training Repository
 This application is built on top of the full training and data processing pipeline available here:
@@ -84,7 +92,7 @@ application/
 |    |--*.py (script files used by the app)
 |
 |--sample_wsi/
-|    |--*.tif (sample whole slide images for app running)
+|    |--*.tif (must be added with downloaded converted files)
 |
 |--app.py (full app for classification of whole slide images)
 |
@@ -137,6 +145,10 @@ Create environments:
 ```
 
 ### Running the app:
+
+Download whole slide images from references and covert to `.tif` format following the original pipeline. 
+Save the downloaded images insie a \sample_wsi folder within the application folder to ensure the dropdown menu finds the images.
+
 
 Activate the streamlit environment:
 
