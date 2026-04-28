@@ -114,6 +114,7 @@ This repository includes pretrained models:
 - Cancer subtype classification model (Swin-B)
 
 These models were trained using the pipeline described in the training repository.
+Because of their size, they are available for download [HERE](https://doi.org/10.5281/zenodo.19854417)
 
 
 
@@ -146,9 +147,10 @@ Create environments:
 
 ### Running the app:
 
-Download whole slide images from references and covert to `.tif` format following the original pipeline. 
-Save the downloaded images insie a \sample_wsi folder within the application folder to ensure the dropdown menu finds the images.
+Download whole slide images from references and convert to `.tif` format following the original pipeline. 
+Save the downloaded images inside a \sample_wsi folder within the application folder to ensure the dropdown menu finds the images.
 
+Download the models from the provided link above and save them in the application directory `application\models\`.
 
 Activate the streamlit environment:
 
